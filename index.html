@@ -63,11 +63,11 @@ label {
 
   <form class="form">
     <fieldset class="fieldset">
-      <legend class="legend legend-underline">So Basic Information</legend>
+      <legend class="legend">So Basic Information</legend>
       <div class="form-group">
         <label>
           <span class="form-label">Your name</span>
-          <div class="form-control">
+          <div class="form-control form-control-rounded">
             <input type="text">
           </div>
         </label>
@@ -76,7 +76,8 @@ label {
       <div class="form-group">
         <label>
           <span class="form-label">Who are you</span>
-          <div class="form-control">
+          <p class="form-help">A helpful description about yourself</p>
+          <div class="form-control form-control-rounded">
             <textarea></textarea>
           </div>
         </label>
@@ -85,7 +86,17 @@ label {
     </fieldset>
 
     <fieldset class="fieldset">
-      <legend class="legend legend-underline">Basic mailing list</legend>
+      <legend class="legend">Basic mailing list</legend>
+      <div class="form-group inline-fields">
+        <label>
+          <span class="form-label">Email</span>
+          <div class="form-control">
+            <input type="text" placeholder="john@smith.com">
+          </div>
+          <button class="btn btn-condone">Yasssss</button>
+        </label>
+      </div>
+
       <div class="form-group form-group-border inline-fields">
         <label>
           <span class="form-label">Email</span>
@@ -97,36 +108,6 @@ label {
       </div>
     </fieldset>
 
-    <fieldset class="fieldset">
-      <legend class="legend legend-underline">Moar basic</legend>
-      <div class="form-group">
-        <label>
-          <span class="form-label">Your name:</span>
-          <div class="form-control form-control-rounded">
-            <input type="text">
-          </div>
-        </label>
-      </div>
-
-      <div class="form-group form-group-border inline-fields">
-        <label>
-          <span class="form-label">Email</span>
-          <div class="form-control">
-            <input type="text" placeholder="john@smith.com">
-          </div>
-          <button class="btn btn-condone">Yasssss</button>
-        </label>
-      </div>
-
-      <div class="form-group">
-        <label>
-          <span class="form-label">Your name:</span>
-          <div class="form-control form-control-rounded">
-            <textarea></textarea>
-          </div>
-        </label>
-      </div>
-    </fieldset>
 
     <button class="btn btn-attention btn-border btn-rounded">Cancel</button>
     <button class="btn btn-inform btn-border btn-rounded">Save</button>

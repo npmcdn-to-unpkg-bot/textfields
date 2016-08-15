@@ -23,13 +23,18 @@
 }
 
 .legend {
-  color: gray;
+  border-left: 1px solid $lightgray;
+  color: $gray;
   font-size: $font-sm;
-  padding: 3px 0px;
+  font-weight: 900;
+  padding: 2px 6px;
 }
 
-.legend-underline {
-  border-bottom: 1px solid $lightgray;
+.form-help {
+  border-left: 1px solid $lightgray;
+  color: $gray;
+  font-size: $font-sm;
+  margin-bottom: 0;
   padding: 2px 6px;
 }
 
