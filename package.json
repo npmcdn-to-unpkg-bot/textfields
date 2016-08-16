@@ -1,0 +1,19 @@
+{
+  "name": "ucantextfields",
+  "version": "1.0.0",
+  "description": "Textfields",
+  "main": "dist/style.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucandigit/textfields.git"
+  },
+  "keywords": [
+    "Textfields"
+  ],
+  "author": "ucandigit <info@ucandigit.xyz> (https://ucandigit.xyz)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ucandigit/textfields/issues"
+  },
+  "homepage": "https://github.com/ucandigit/textfields"
+}
